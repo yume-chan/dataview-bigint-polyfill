@@ -1,5 +1,11 @@
 # @yume-chan/dataview-bigint-polyfill
 
+> [!WARNING]
+>
+> This package has been deprecated since all modern browsers now natively support `DataView#getBigInt64`, `DataView#getBigUint64`, `DataView#setBigInt64` and `DataView#setBigUint64`.
+>
+> https://caniuse.com/?search=dataview%20bigint
+
 Polyfill for `DataView#getBigInt64`, `DataView#getBigUint64`, `DataView#setBigInt64` and `DataView#setBigUint64`.
 
 Requires native `BigInt` support.

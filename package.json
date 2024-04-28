@@ -16,31 +16,23 @@
         "email": "cnsimonchan@live.com",
         "url": "https://chensi.moe/blog"
     },
-    "homepage": "https://github.com/yume-chan/ya-webadb/tree/main/libraries/dataview-bigint-polyfill#readme",
+    "homepage": "https://github.com/yume-chan/dataview-bigint-polyfill#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yume-chan/ya-webadb.git",
-        "directory": "libraries/dataview-bigint-polyfill"
+        "url": "git+https://github.com/yume-chan/dataview-bigint-polyfill.git"
     },
     "bugs": {
-        "url": "https://github.com/yume-chan/ya-webadb/issues"
+        "url": "https://github.com/yume-chan/dataview-bigint-polyfill/issues"
     },
     "type": "module",
     "main": "esm/index.js",
     "types": "esm/index.d.ts",
     "scripts": {
-        "build": "tsc -b tsconfig.build.json",
-        "build:watch": "tsc -b tsconfig.build.json",
-        "//test": "jest --coverage",
-        "lint": "run-eslint && prettier src/**/*.ts --write --tab-width 4",
+        "build": "tsc",
         "prepublishOnly": "npm run build"
     },
     "dependencies": {},
     "devDependencies": {
-        "@yume-chan/eslint-config": "workspace:^1.0.0",
-        "@yume-chan/tsconfig": "workspace:^1.0.0",
-        "jest": "^30.0.0-alpha.3",
-        "prettier": "^3.2.5",
         "typescript": "^5.4.5"
     }
 }
